@@ -1,5 +1,7 @@
 # Summary
 
+## SCDF INNOVATION CHALLENGE WITH IBM CALL FOR CODE
+
 ## IBM Developer - ASEAN
 
 * [Team](README.md)
@@ -10,6 +12,6 @@
 
 ## IBM Watson Studio
 
-* [Introduction](Workshop_Watsion_Studio/Introduction.md)
+* [Introduction to Data Science](Workshop_Watsion_Studio/Introduction.md)
 * [Data Preparation using Data Refinery](Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.md)
 * [Auto AI](Workshop_Watsion_Studio/AutoAI.md)

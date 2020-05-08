@@ -16,17 +16,14 @@ In this lab, we will use AutoAI to build a model to predict fraud.
 ## 3.2 Prerequisites
 
 1. Project
-
-- You should have a working project (We named it Watson Studio Workshop as an example) created in Watson Studio. If you don’t have one, read how to create an new project from the introduction page.
+    * You should have a working project (We named it Watson Studio Workshop as an example) created in Watson Studio. If you don’t have one, read how to create an new project from the introduction page.
 
 2. Data
-
-- Download sample data **insurance_claims.csv** for this lab [here] or if you have the
+    * Download sample data **insurance_claims.csv** for this lab [here] or if you have the
 WatsonStudioWorkshop.zip file provided by the instructor, the data will be reside in **WatsonStudioWorkshop/03-Insurance Fraud Detection using AutoAI**.
 
 3. Watson Machine Learning Service
-
-- You should have a Watson Machine Learning service provisioned on IBM Cloud and assoicated with the
+    * You should have a Watson Machine Learning service provisioned on IBM Cloud and assoicated with the
 current project. If you don’t have one, read how to add a new WML service in the Lab 2 [here].
 
 Now you should be ready to start the lab!
