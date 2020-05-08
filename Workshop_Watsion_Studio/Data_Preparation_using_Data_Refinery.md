@@ -20,7 +20,7 @@ When refining your data, the **Data** tab is where you can see a simple of how y
 
 - You should have a empty project (We named it Watson Studio Workshop as an example) created in Watson Studio. If you don’t have one, read how to create an new project here(Link to Intro) starting Step 5.
 
-- Download sample *data adult_person_info.csv* and *adult_org_info.csv* for this lab [here] or if you have the WatsonsStudioWorkshop.zip file provided by the instructor, the data will be reside in WatsonsStudioWorkshop/01-Data Preparation in Data Refinery.
+- Download sample *data adult_person_info.csv* and *adult_org_info.csv* for this lab [here](https://github.com/zacaintmyname/CFCImages/tree/master/WatsonStudioWorkshop/2%20-%20Data%20Preparation%20in%20Data%20Refinery) or if you have the WatsonsStudioWorkshop.zip file provided by the instructor, the data will be reside in WatsonsStudioWorkshop/01-Data Preparation in Data Refinery.
 
 ## 2.3 Add Datasets to the Project
 
