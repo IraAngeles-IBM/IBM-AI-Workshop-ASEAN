@@ -11,5 +11,5 @@
 ## IBM Watson Studio
 
 * [Introduction](Workshop_Watsion_Studio/Introduction.md)
-* [Auto AI](Workshop_Watsion_Studio/AutoAI.md)
 * [Data Preparation using Data Refinery](Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.md)
+* [Auto AI](Workshop_Watsion_Studio/AutoAI.md)
