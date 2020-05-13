@@ -16,6 +16,7 @@
 - [Introduction to Data Science](Workshop_Watsion_Studio/Introduction.md)
     - [Data Preparation using Data Refinery](Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.md)
     - [Auto AI](Workshop_Watsion_Studio/AutoAI.md)
+- [Jupyter Notebook - Credit Card Approval Model](Workshop_Watsion_Studio/Jupyter_Notebook_Credit_Card_approval_model.md)
 
 ## IBM Watson Machine Learning
 
