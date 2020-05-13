@@ -1,9 +1,8 @@
 
 <p align="center">
-<img  src="https://raw.githubusercontent.com/IraAngeles-IBM/Solution-Starter-Kit-Communication-2020-ASEAN/master/starter-kit/assistant/WA-Photo101.png">
+<img  src="https://raw.githubusercontent.com/IraAngeles-IBM/IBM-AI-Workshop-ASEAN/master/images/build_smart_build_secure.png">
 </p>
 
-<center><h1>Welcome to SCDF Innovation Challenge</h1></center>
 ## IBM Developer Ecosystem Group - ASEAN 
 
 - [Zack Yeo](https://www.linkedin.com/in/zackyeo/) - IBM
