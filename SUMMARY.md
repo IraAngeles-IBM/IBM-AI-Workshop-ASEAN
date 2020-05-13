@@ -2,7 +2,7 @@
 
 ## IBM DEVELOPER AI WORKSHOP (HANDS-ON)
 
-- [IBM Cloud Sign-up](ibm.biz/signupcloud)
+- [IBM Cloud Sign-up](https://ibm.biz/signupcloud)
 
 ## IBM Watson Assistant
 
@@ -19,7 +19,7 @@
 
 ## IBM Watson Machine Learning
 
-- [Introduction to Machine Learning](ibm.biz/LABintroML)
+- [Introduction to Machine Learning](https://ibm.biz/LABintroML)
 
 ## IBM Visual Recognition
 
