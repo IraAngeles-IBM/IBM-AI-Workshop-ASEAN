@@ -27,7 +27,7 @@
 * [Object Detection Lab](https://cloud.annotations.ai/workshops/object-detection/index.html)
 * [Different Types of Visual Recognition](https://www.geeksforgeeks.org/object-detection-vs-object-recognition-vs-image-segmentation/)
 
-## For more Advanced Users
+## Additional Code Patterns 
 
 * [1. Setting up your first IoT](https://developer.ibm.com/technologies/iot/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
 * [2. Creating an App with CloudantDB](https://developer.ibm.com/tutorials/provision-a-couchdb-instance-using-cloudant-cfc-starter-kit-2/)
