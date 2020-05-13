@@ -1,0 +1,745 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Create Watson Banking Chatbot · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Workshop_Watsion_Studio/Introduction.html" />
+    
+    
+    <link rel="prev" href="../Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">IBM DEVELOPER AI WORKSHOP (HANDS-ON)</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../ibm.biz/signupcloud">
+            
+                <span>
+            
+                    
+                    IBM Cloud Sign-up
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IBM Watson Assistant</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../Solution-Starter-Kit-Communication-2020-ASEAN/">
+            
+                <a href="../Solution-Starter-Kit-Communication-2020-ASEAN/">
+            
+                    
+                    Call for Code Solution-Starter-Kit-Communication-2020
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../Solution-Starter-Kit-Communication-2020-ASEAN/ASSISTANT.html">
+            
+                <a href="../Solution-Starter-Kit-Communication-2020-ASEAN/ASSISTANT.html">
+            
+                    
+                    Create a crisis communication chatbot and connect it to news and COVID-19 data sources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.html">
+            
+                <a href="../Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.html">
+            
+                    
+                    Create a voice-enabled COVID-19 chatbot using Node-RED
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Create Watson Banking Chatbot
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IBM Watson Studio</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../Workshop_Watsion_Studio/Introduction.html">
+            
+                <a href="../Workshop_Watsion_Studio/Introduction.html">
+            
+                    
+                    Introduction to Data Science
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.html">
+            
+                <a href="../Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.html">
+            
+                    
+                    Data Preparation using Data Refinery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../Workshop_Watsion_Studio/AutoAI.html">
+            
+                <a href="../Workshop_Watsion_Studio/AutoAI.html">
+            
+                    
+                    Auto AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IBM Watson Machine Learning</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../ibm.biz/LABintroML">
+            
+                <span>
+            
+                    
+                    Introduction to Machine Learning
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IBM Visual Recognition</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <a target="_blank" href="https://cloud.annotations.ai/workshops/classification/index.html">
+            
+                    
+                    Image Classification Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" >
+            
+                <a target="_blank" href="https://cloud.annotations.ai/workshops/object-detection/index.html">
+            
+                    
+                    Object Detection Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <a target="_blank" href="https://www.geeksforgeeks.org/object-detection-vs-object-recognition-vs-image-segmentation/">
+            
+                    
+                    Different Types of Visual Recognition
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">For more Advanced Users</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <a target="_blank" href="https://developer.ibm.com/technologies/iot/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/">
+            
+                    
+                    1. Setting up your first IoT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" >
+            
+                <a target="_blank" href="https://developer.ibm.com/tutorials/provision-a-couchdb-instance-using-cloudant-cfc-starter-kit-2/">
+            
+                    
+                    2. Creating an App with CloudantDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" >
+            
+                <a target="_blank" href="https://developer.ibm.com/exchanges/models/">
+            
+                    
+                    3. Model Asset eXchange (MAX)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" >
+            
+                <a target="_blank" href="https://developer.ibm.com/technologies/paas/">
+            
+                    
+                    4. Cloud Foundry on IBM Cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" >
+            
+                <a target="_blank" href="https://cognitiveclass.ai">
+            
+                    
+                    5. Earn Digital Badges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" >
+            
+                <a target="_blank" href="https://developer.ibm.com/patterns/">
+            
+                    
+                    6. IBM Code Pattern Repository
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">IBM Developer - ASEAN</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Team
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Create Watson Banking Chatbot</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><a href="https://travis-ci.org/IBM/watson-banking-chatbot" target="_blank"><img src="https://api.travis-ci.org/IBM/watson-banking-chatbot.svg?branch=master" alt="Build Status"></a></p>
+<h1 id="create-a-banking-chatbot-with-faq-discovery-anger-detection-and-natural-language-understanding">Create a banking chatbot with FAQ discovery, anger detection and natural language understanding</h1>
+<p>In this code pattern, we will create a chatbot using Node.js and Watson Assistant. The Assistant flow will detect customer emotions and be enhanced by using Natural Language Understanding to identify location entities. For FAQs, a call to the Discovery service will use passage retrieval to pull answers from a collection of documents.</p>
+<p>When the reader has completed this pattern, they will understand how to:</p>
+<ul>
+<li>Create a chatbot that converses via a web UI using Watson Assistant and Node.js</li>
+<li>Use Watson Discovery with passage retrieval to find answers in FAQ documents</li>
+<li>Identify location entities with Watson Natural Language Understanding</li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong>: This code pattern has been updated to include instructions for accessing Watson services running on IBM Cloud Pak for Data. These updates can be found in the specific instructions for deploying your app <a href="doc/source/local.md">locally</a>, or deploying your app to <a href="doc/source/openshift.md">OpenShift on IBM Cloud</a>. The main change required is that your application will need additional credentials to access the IBM Cloud Pak for Data cluster that is hosting the Watson services.</p>
+<p>Click <a href="https://www.ibm.com/products/cloud-pak-for-data" target="_blank">here</a> for more information about IBM Cloud Pak for Data.</p>
+</blockquote>
+<p><img src="doc/source/images/architecture.png" alt="architecture"></p>
+<h2 id="flow">Flow</h2>
+<ol>
+<li>The FAQ documents are added to the Discovery collection.</li>
+<li>The user interacts with a chatbot via the app UI.</li>
+<li>User input is processed with Natural Language Understanding (NLU). The context is enriched with NLU-detected entities and keywords (e.g., a location).</li>
+<li>The input and enriched context is sent to Assistant. Assistant recognizes intent, entities and dialog paths. It responds with a reply and/or action.</li>
+<li>Optionally, a requested action is performed by the app. This may include one of the following:<ul>
+<li>Lookup additional information from bank services to append to the reply</li>
+<li>Use Discovery to reply with an answer from the FAQ documents</li>
+</ul>
+</li>
+</ol>
+<h2 id="included-components">Included components</h2>
+<ul>
+<li><a href="https://www.ibm.com/cloud/watson-assistant/" target="_blank">IBM Watson Assistant</a>: Build, test and deploy a bot or virtual agent across mobile devices, messaging platforms, or even on a physical robot.</li>
+<li><a href="https://www.ibm.com/watson/services/discovery/" target="_blank">IBM Watson Discovery</a>: A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights.</li>
+<li><a href="https://www.ibm.com/watson/services/natural-language-understanding/" target="_blank">IBM Watson Natural Language Understanding</a>: Analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.</li>
+</ul>
+<h2 id="featured-technologies">Featured technologies</h2>
+<ul>
+<li><a href="https://nodejs.org/" target="_blank">Node.js</a>: An asynchronous event driven JavaScript runtime, designed to build scalable applications.</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><a href="#1-clone-the-repo">Clone the repo</a></li>
+<li><a href="#2-create-watson-services">Create Watson services</a></li>
+<li><a href="#3-deploy-the-application">Deploy the application</a></li>
+<li><a href="#4-use-the-web-app">Use the web app</a></li>
+<li><a href="#5-customize-the-watson-assistant-skill">Customize the Watson Assistant skill</a></li>
+<li><a href="#6-load-discovery-documents">Load Discovery documents</a></li>
+</ol>
+<h3 id="1-clone-the-repo">1. Clone the repo</h3>
+<p>Clone the <code>watson-banking-chatbot</code> locally. In a terminal, run:</p>
+<pre><code class="lang-bash">git <span class="hljs-built_in">clone</span> https://github.com/IraAngeles-IBM/watson-banking-chatbot.git
+</code></pre>
+<h3 id="2-create-watson-services">2. Create Watson services</h3>
+<p>Provision the following services:</p>
+<ul>
+<li><strong>Watson Assistant</strong></li>
+<li><strong>Watson Discovery</strong></li>
+<li><strong>Watson Natural Language Understanding</strong></li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong>: If you will be using the <code>Deploy to Cloud Foundry on IBM Cloud</code> deployment option, then you can skip this step. That deployment option automatically creates the services and links them to your application.</p>
+</blockquote>
+<p>The instructions will depend on whether you are provisioning services using IBM Cloud Pak for Data or on IBM Cloud.</p>
+<p>Click to expand one:</p>
+<details><summary><b>IBM Cloud Pak for Data</b></summary>
+<p>
+<i>Use the following instructions for each of the three services.</i>
+</p><p>
+</p><h5 id="install-and-provision-service-instances">Install and provision service instances</h5>
+<p>
+The services are not available by default. An administrator must install them on the IBM Cloud Pak for Data platform, and you must be given access to the service. To determine whether the service is installed, Click the <b>Services</b> icon (<img class="lazycontent" src="doc/source/images/services_icon.png" alt="services_icon">) and check whether the service is enabled.
+</p></details>
+
+<details><summary><b>IBM Cloud</b></summary>
+<p>
+</p><h5 id="create-the-service-instances">Create the service instances</h5>
+  <ul>
+    <li>If you do not have an IBM Cloud account, register for a free trial account <a href="https://ibm.biz/BdqyTb" target="_blank">here</a>.</li>
+    <li>Click <a href="https://cloud.ibm.com/catalog/services/watson-assistant" target="_blank">here</a> to create a <b>Watson Assistant</b> instance.</li>
+    <li>Click <a href="https://cloud.ibm.com/catalog/services/discovery" target="_blank">here</a> to create a <b>Discovery</b> instance.</li>
+    <li>Click <a href="https://cloud.ibm.com/catalog/services/natural-language-understanding" target="_blank">here</a> to create a <b>Natural Language Understanding</b> instance.</li>
+  </ul>
+</details>
+
+<h3 id="3-deploy-the-application">3. Deploy the application</h3>
+<p>Click on one of the options below for instructions on deploying the Node.js server.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="doc/source/local.md"><img src="https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/local.png" alt="local"></a></td>
+<td style="text-align:center"><a href="doc/source/openshift.md"><img src="https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/openshift.png" alt="openshift"></a></td>
+<td style="text-align:center"><a href="doc/source/cf.md"><img src="https://raw.githubusercontent.com/IBM/pattern-utils/master/deploy-buttons/cf.png" alt="public"></a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-use-the-web-app">4. Use the web app</h3>
+<p>The web app presents a customer service chatbot. Interact with the chatbot by pressing the buttons when prompted or use the <code>Type something</code> box. The chatbot is powered by Watson Assistant with additional information coming from Discovery and Natural Language Understanding.</p>
+<p><img src="doc/source/images/demo.gif" alt="demo"></p>
+<h3 id="5-customize-the-watson-assistant-skill">5. Customize the Watson Assistant skill</h3>
+<p>The following instructions will depend on if you are provisioning Assistant from IBM Cloud or from an IBM Cloud Pak for Data cluster. Choose one:</p>
+<details><summary>Provision on IBM Cloud Pak for Data</summary>
+<p>
+
+* Find the Assistant service in your list of `Provisioned Instances` in your IBM Cloud Pak for Data Dashboard.
+* Click on `View Details` from the options menu associated with your Assistant service.
+* Click on `Open Watson Assistant`.
+* Go to the `Skills` tab.
+* Click `Create skill`
+* Select the `Dialog skill` option and then click `Next`.
+* Click the `Import skill` tab.
+* Click `Choose JSON file`, go to your cloned repo dir, and `Open` the JSON file in `data/conversation/workspaces/banking_US.json` (or use the old full version in `full_banking.json`). `banking_IN.json` is used for content for banking in India and `banking_US.json` is used for content for banking in United States.
+* Select `Everything` and click `Import`.
+
+</p>
+</details>
+
+<details><summary>Provision on IBM Cloud</summary>
+<p>
+
+* Find the Assistant service in your IBM Cloud Dashboard.
+* Click on the service and then click on `Launch tool`.
+* Go to the `Skills` tab.
+* Click `Create skill`.
+* Select the `Dialog skill` option and then click `Next`.
+* Click the `Import skill` tab.
+* Click `Choose JSON file`, go to your cloned repo dir, and `Open` the JSON file in `data/conversation/workspaces/banking_US.json` (or use the old full version in `full_banking.json`). `banking_IN.json` is used for content for banking in India and `banking_US.json` is used for content for banking in United States.
+* Select `Everything` and click `Import`.
+
+</p>
+</details>
+
+<p>To find the <code>Skill ID</code> for Watson Assistant:</p>
+<ul>
+<li>Go back to the <code>Skills</code> tab.</li>
+<li>Click on the three dots in the upper right-hand corner of a card and select <code>View API Details</code>.</li>
+<li>Copy the <code>Skill ID</code> GUID. Use this value when setting up your run-time environment.</li>
+<li><p>By default the application will import and use the skill named <strong>watson-banking-chatbot</strong>, but you can configure it to use another skill by setting the run-time environment variable <code>SKILL_ID</code>.</p>
+<p><img src="doc/source/images/view_api_details.png" alt="view_api_details"></p>
+</li>
+</ul>
+<p>To view the Assistant dialog, click on the skill and choose the
+<code>Dialog</code> tab. Here&apos;s a snippet of the dialog:</p>
+<p><img src="doc/source/images/dialog.png" alt="dialog"></p>
+<h3 id="5-load-discovery-documents">5. Load Discovery documents</h3>
+<p>By default, the application will create a collection named <strong>watson-banking-chatbot</strong>, but you can configure it to use another collection by setting the run-time environment variables <code>DISCOVERY_COLLECTION_ID</code> and <code>DISCOVERY_ENVIRONMENT_ID</code>.</p>
+<p>The following instructions will depend on if you are provisioning Discovery from IBM Cloud or from an IBM Cloud Pak for Data cluster. Choose one:</p>
+<details><summary>Provision on IBM Cloud Pak for Data</summary>
+<p>
+
+* Find the Discovery service in your list of `Provisioned Instances` in your IBM Cloud Pak for Data Dashboard.
+* Click on `View Details` from the options menu associated with your Discovery service.
+* Click on `Open Watson Discovery`.
+* Click on an existing Discovery `Project`, or create a new one.
+* From your `Project` panel, click the `Collections` tab.
+* Click on `New Collection +`.
+* Select the `Upload data` option and click `Next`.
+* Provide a collection name.
+* Select `English` language.
+* Click `Finish` to create the collection.
+* Use `Drag and drop your documents here or select documents` to seed the content with the five documents in `data/discovery/docs` of your cloned repo.
+* Click on the `Integrate and deploy` option from the left-side menu of the Discovery panel. Then select the `View API Details` tab to view the `Project Id`. Use this as the `Collection ID` value when setting up your run-time environment.
+
+&gt; **NOTE**: The `Environment Id` for Cloud Pak for Data collections is always set to `default`.
+
+  ![disco_cpd_projectid](doc/source/images/disco_cpd_projectid.png)
+
+</p>
+</details>
+
+<details><summary>Provision on IBM Cloud</summary>
+<p>
+
+* Find the Discovery service in your IBM Cloud Dashboard.
+* Click on the service and then click on `Launch tool`.
+* Create a new data collection by hitting the `Upload your own data` button.
+
+  ![new_collection](doc/source/images/new_collection.png)
+  * Provide a collection name
+  * Select `English` language
+  * Click `Create`
+
+* Use `Drag and drop your documents here or select documents` to seed the content with the five documents in `data/discovery/docs` of your cloned repo.
+* Click on the upper-right `api` icon and save the `Environment ID` and `Collection ID` as they will be required when setting up your run-time environment.
+
+  ![disco_guids](doc/source/images/disco_guids.png)
+
+</p>
+</details>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li><p>Error: Unable to list workspaces for Watson Assistant: Forbidden: Access is denied due to invalid credentials.</p>
+<blockquote>
+<p>This error occurs with <code>Deploy to IBM Cloud</code> button. Configure a runtime environment variable for <code>ASSISTANT_APIKEY</code> to allow automatic configuration of the default skill or configure <code>SKILL_ID</code> to use another skill.</p>
+</blockquote>
+</li>
+<li><p>Fail: An operation for service instance wbc-discovery-service is in progress.</p>
+<blockquote>
+<p>This error occurs when starting the app before the service is ready. It is currently common behavior with the <code>Deploy to IBM Cloud</code> button. In this case, click the <code>Run</code> button to restart the application. It will succeed when the service is ready.</p>
+</blockquote>
+</li>
+<li><p>Error: Environment {GUID} is still not active, retry once status is active</p>
+<blockquote>
+<p>This is common during the first run. The app tries to start before the Discovery environment is fully created. Wait a few minutes and click the <code>Run</code> button to restart the application.</p>
+</blockquote>
+</li>
+<li><p>Error: Only one free environment is allowed per organization</p>
+<blockquote>
+<p>To work with a free trial, a small free Discovery environment is created. If you already have a Discovery environment, this will fail. If you are not using Discovery, check for an old service thay you may want to delete. Otherwise use the .env DISCOVERY_ENVIRONMENT_ID to tell the app which environment you want it to use. A collection will be created in this environment using the default configuration.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Jxi7U7VOMYg" target="_blank">Demo on Youtube</a></li>
+<li><a href="https://github.com/watson-developer-cloud/node-sdk" target="_blank">Watson Node.js SDK</a></li>
+<li><a href="https://www.youtube.com/watch?v=8BiuQKPQZJk" target="_blank">Relevancy Training Demo Video</a></li>
+<li><a href="https://github.com/akmnua/relevancy_passage_bww" target="_blank">Relevancy Training Demo Notebook</a></li>
+</ul>
+<h2 id="license">License</h2>
+<p>This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the <a href="https://developercertificate.org/" target="_blank">Developer Certificate of Origin, Version 1.1</a> and the <a href="https://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank">Apache License, Version 2</a>.</p>
+<p><a href="https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN" target="_blank">Apache License FAQ</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.html" class="navigation navigation-prev " aria-label="Previous page: Create a voice-enabled COVID-19 chatbot using Node-RED">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Workshop_Watsion_Studio/Introduction.html" class="navigation navigation-next " aria-label="Next page: Introduction to Data Science">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Create Watson Banking Chatbot","level":"2.2","depth":1,"next":{"title":"Introduction to Data Science","level":"3.1","depth":1,"path":"Workshop_Watsion_Studio/Introduction.md","ref":"Workshop_Watsion_Studio/Introduction.md","articles":[{"title":"Data Preparation using Data Refinery","level":"3.1.1","depth":2,"path":"Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.md","ref":"Workshop_Watsion_Studio/Data_Preparation_using_Data_Refinery.md","articles":[]},{"title":"Auto AI","level":"3.1.2","depth":2,"path":"Workshop_Watsion_Studio/AutoAI.md","ref":"Workshop_Watsion_Studio/AutoAI.md","articles":[]}]},"previous":{"title":"Create a voice-enabled COVID-19 chatbot using Node-RED","level":"2.1.2","depth":2,"path":"Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.md","ref":"Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Watson-Banking-Chatbot/README.md","mtime":"2020-05-13T03:26:48.694Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-13T03:40:34.050Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
