@@ -41,6 +41,7 @@
 
 * [Introduction to Watson Assistant](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-watson-assistant)
 * [Get started with Node-RED](https://developer.ibm.com/gettingstarted/node-red/)
+* [Journey to Data and AI](https://iraangeles-ibm.github.io/Think-TH/)
 
 ## IBM Developer
 
