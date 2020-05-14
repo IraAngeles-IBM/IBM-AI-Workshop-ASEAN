@@ -1,6 +1,6 @@
 # Summary
 
-## IBM DEVELOPER AI WORKSHOP (HANDS-ON)
+## IBM DEVELOPER AI HANDS-ON WORKSHOP
 
 - [IBM Cloud Sign-up](https://ibm.biz/signupcloud)
 
@@ -37,7 +37,11 @@
 * [5. Earn Digital Badges](https://cognitiveclass.ai)
 * [6. IBM Code Pattern Repository](https://developer.ibm.com/patterns/)
 
+## Tutorials
 
-## IBM Developer - ASEAN
+* [Introduction to Watson Assistant](https://developer.ibm.com/technologies/artificial-intelligence/articles/introduction-watson-assistant)
+* [Get started with Node-RED](https://developer.ibm.com/gettingstarted/node-red/)
 
-* [Team](README.md)
+## IBM Developer
+
+* [IBM Developer ASEAN Team](README.md)
