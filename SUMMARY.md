@@ -7,7 +7,7 @@
 ## DB2 Warehouse and Data Virtualization
 
 - [DB2 Local Installation](cloud_pak_for_data/db2_local_install.md.md)
-- [Load data]()
+- [Load data to DB2 Warehouse]()
 - [DB2 Warehouse and Data Virtualization Demo](https://www.ibm.com/cloud/garage/dte/producttour/learn-how-access-remote-database-tables-icp-data)
 
 ## IBM Watson Assistant

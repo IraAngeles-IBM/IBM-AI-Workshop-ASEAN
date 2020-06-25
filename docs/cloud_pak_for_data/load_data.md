@@ -2,7 +2,7 @@
 
 ## Load Data 
 
-1. Download the following files from this Github [repository]():
+1. Download the following files from this Github [repository](https://github.com/IraAngeles-IBM/IBM-AI-Workshop-ASEAN/tree/master/cloud_pak_for_data/assets):
 
     - billing.csv
     - products.csv
@@ -24,7 +24,7 @@
 
     ![load billing csv](images/table_definition.png)
 
-6. Load complete, click on **Load more Data** to load **products.csv** and **customer-service.csv**
+6. Load complete, click on **Load more Data** to load **products.csv** and **customer-service.csv**, repeating steps 2 to 6.
 
     ![load billing csv](images/load_billing_complete.png)
 
