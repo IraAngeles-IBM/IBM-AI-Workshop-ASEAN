@@ -17,13 +17,11 @@
 
     ![setup logs](images/logs_setup.png)
 
-4. Upon successfull deployment open in browser **https://localhost:8443**
-
-5. Login as **bludadmin** with the set password
+4. Upon successfull deployment open in browser **https://localhost:8443** and Login as **bludadmin** with the set password
 
     ![login](images/login.png)
 
-6. Dashboard upon successful login
+5. Dashboard upon successful login
 
     ![dashboard](images/dashboard.png)
 
