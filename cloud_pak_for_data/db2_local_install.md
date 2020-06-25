@@ -4,7 +4,7 @@
 
 1. Deploy on local Hardware
 
-    * [For Windwos or Mac system](https://www.ibm.com/support/knowledgecenter/en/SSCJDQ/com.ibm.swg.im.dashdb.doc/admin/deploy_own_hw.html)
+    * [For Windows or Mac system](https://www.ibm.com/support/knowledgecenter/en/SSCJDQ/com.ibm.swg.im.dashdb.doc/admin/deploy_own_hw.html)
     * [For Linux and other platforms](https://www.ibm.com/support/knowledgecenter/en/SSCJDQ/com.ibm.swg.im.dashdb.doc/admin/deploy_own_hw.html)
 
 2. Verify status of the deployment by using the command
