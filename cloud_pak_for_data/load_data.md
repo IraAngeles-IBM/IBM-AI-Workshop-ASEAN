@@ -24,7 +24,7 @@
 
     ![load billing csv](images/table_definition.png)
 
-6. Load complete, click on **Load more Data** to load **products.csv** and **customer-service.csv**, repeating steps 2 to 6.
+6. Load complete for **billing.csv**, click on **Load more Data** to load **products.csv** and **customer-service.csv**, repeating steps 2 to 6.
 
     ![load billing csv](images/load_billing_complete.png)
 
