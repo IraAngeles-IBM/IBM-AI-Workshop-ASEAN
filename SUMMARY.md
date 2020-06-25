@@ -1,8 +1,14 @@
 # Summary
 
-## IBM DEVELOPER AI HANDS-ON WORKSHOP
+## IBM DEVELOPER AI / CP4D HANDS-ON WORKSHOP 
 
 - [IBM Cloud Sign-up](https://ibm.biz/signupcloud)
+
+## DB2 Warehouse and Data Virtualization
+
+- [DB2 Local Installation](cloud_pak_for_data/db2_local_install.md.md)
+- [Load data]()
+- [DB2 Warehouse and Data Virtualization Demo](https://www.ibm.com/cloud/garage/dte/producttour/learn-how-access-remote-database-tables-icp-data)
 
 ## IBM Watson Assistant
 
