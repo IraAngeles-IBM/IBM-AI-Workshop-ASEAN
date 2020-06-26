@@ -28,11 +28,13 @@
 
     ![load billing csv](images/load_billing_complete.png)
 
-7. Try the following SQL:
+7. To run **SQL**, go to menu -> **Run SQL** and type the following SQL command:
 
     ```
     SELECT CUSTOMERID,CONTRACT,PAPERLESSBILLING,PAYMENTMETHOD,MONTHLYCHARGES,TOTALCHARGES,CHURN
     FROM BLUADMIN.BILLING;
     ```
 
-    ![load billing csv](images/db2_warehouse_sql.gif)
+    ![load billing csv](images/db2_warehouse_sql_loop.gif)
+
+    
