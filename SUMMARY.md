@@ -12,9 +12,10 @@
 
 ## IBM Watson Assistant
 
-- [Call for Code Solution-Starter-Kit-Communication-2020](Solution-Starter-Kit-Communication-2020-ASEAN/README.md)
-    - [Create a crisis communication chatbot and connect it to news and COVID-19 data sources](Solution-Starter-Kit-Communication-2020-ASEAN/ASSISTANT.md)
-    - [Create a voice-enabled COVID-19 chatbot using Node-RED](Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.md)
+<!-- - [Call for Code Solution-Starter-Kit-Communication-2020](Solution-Starter-Kit-Communication-2020-ASEAN/README.md) -->
+    
+- [Create a crisis communication chatbot and connect it to news and COVID-19 data sources](Solution-Starter-Kit-Communication-2020-ASEAN/ASSISTANT.md)
+- [Create a voice-enabled COVID-19 chatbot using Node-RED](Solution-Starter-Kit-Communication-2020-ASEAN/starter-kit/node-red/Node-RED-chatbot.md)
 - [Create Watson Banking Chatbot](Watson-Banking-Chatbot/README.md)
 
 ## IBM Watson Studio
@@ -26,7 +27,7 @@
 
 ## IBM Watson Machine Learning
 
-- [Introduction to Machine Learning](https://ibm.biz/LABintroML)
+- [Introduction to Machine Learning](https://github.com/IraAngeles-IBM/intro-machine-learning)
 
 ## IBM Visual Recognition
 
