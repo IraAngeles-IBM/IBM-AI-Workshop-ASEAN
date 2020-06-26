@@ -34,14 +34,14 @@
 * [Object Detection Lab](https://cloud.annotations.ai/workshops/object-detection/index.html)
 * [Different Types of Visual Recognition](https://www.geeksforgeeks.org/object-detection-vs-object-recognition-vs-image-segmentation/)
 
-## Additional Code Patterns 
+## Additional Resources and Code Patterns 
 
-* [1. Setting up your first IoT](https://developer.ibm.com/technologies/iot/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
-* [2. Creating an App with CloudantDB](https://developer.ibm.com/tutorials/provision-a-couchdb-instance-using-cloudant-cfc-starter-kit-2/)
-* [3. Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/)
-* [4. Cloud Foundry on IBM Cloud](https://developer.ibm.com/technologies/paas/)
-* [5. Earn Digital Badges](https://cognitiveclass.ai)
-* [6. IBM Code Pattern Repository](https://developer.ibm.com/patterns/)
+* [Setting up your first IoT](https://developer.ibm.com/technologies/iot/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
+* [Creating an App with CloudantDB](https://developer.ibm.com/tutorials/provision-a-couchdb-instance-using-cloudant-cfc-starter-kit-2/)
+* [Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/)
+* [Cloud Foundry on IBM Cloud](https://developer.ibm.com/technologies/paas/)
+* [Earn Digital Badges](https://cognitiveclass.ai)
+* [IBM Code Pattern Repository](https://developer.ibm.com/patterns/)
 
 ## Tutorials
 

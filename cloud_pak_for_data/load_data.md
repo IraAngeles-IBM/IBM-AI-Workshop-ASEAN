@@ -28,3 +28,11 @@
 
     ![load billing csv](images/load_billing_complete.png)
 
+7. Try the following SQL:
+
+    ```
+    SELECT CUSTOMERID,CONTRACT,PAPERLESSBILLING,PAYMENTMETHOD,MONTHLYCHARGES,TOTALCHARGES,CHURN
+    FROM BLUADMIN.BILLING;
+    ```
+
+    ![load billing csv](images/db2_warehouse_sql.gif)
