@@ -35,6 +35,7 @@
 
 ## Additional Resources and Code Patterns 
 
+* [IBM Db2 Warehouse](https://www.ibm.com/support/knowledgecenter/en/SSCJDQ/com.ibm.swg.im.dashdb.kc.doc/welcome.html)
 * [Setting up your first IoT](https://developer.ibm.com/technologies/iot/tutorials/iot-mobile-phone-iot-device-bluemix-apps-trs/)
 * [Creating an App with CloudantDB](https://developer.ibm.com/tutorials/provision-a-couchdb-instance-using-cloudant-cfc-starter-kit-2/)
 * [Model Asset eXchange (MAX)](https://developer.ibm.com/exchanges/models/)
